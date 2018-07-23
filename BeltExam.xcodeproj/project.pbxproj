@@ -15,6 +15,12 @@
 		444523CB210242A5001B1372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444523C9210242A5001B1372 /* LaunchScreen.storyboard */; };
 		444523D6210242A5001B1372 /* BeltExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444523D5210242A5001B1372 /* BeltExamTests.swift */; };
 		444523E1210242A5001B1372 /* BeltExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444523E0210242A5001B1372 /* BeltExamUITests.swift */; };
+		444523EF21024E44001B1372 /* AddEditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444523EE21024E44001B1372 /* AddEditTableViewCell.swift */; };
+		444523F121024EA3001B1372 /* AddEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444523F021024EA3001B1372 /* AddEditTableViewController.swift */; };
+		444523F321024EE0001B1372 /* BeastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444523F221024EE0001B1372 /* BeastCell.swift */; };
+		444523F521024F14001B1372 /* BeastedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444523F421024F14001B1372 /* BeastedViewController.swift */; };
+		444523F921025274001B1372 /* TheBeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444523F821025274001B1372 /* TheBeast.swift */; };
+		444523FB21027CA4001B1372 /* BeastedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444523FA21027CA4001B1372 /* BeastedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		444523DC210242A5001B1372 /* BeltExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeltExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		444523E0210242A5001B1372 /* BeltExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltExamUITests.swift; sourceTree = "<group>"; };
 		444523E2210242A5001B1372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444523EE21024E44001B1372 /* AddEditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTableViewCell.swift; sourceTree = "<group>"; };
+		444523F021024EA3001B1372 /* AddEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTableViewController.swift; sourceTree = "<group>"; };
+		444523F221024EE0001B1372 /* BeastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastCell.swift; sourceTree = "<group>"; };
+		444523F421024F14001B1372 /* BeastedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastedViewController.swift; sourceTree = "<group>"; };
+		444523F821025274001B1372 /* TheBeast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBeast.swift; sourceTree = "<group>"; };
+		444523FA21027CA4001B1372 /* BeastedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,15 @@
 		444523BC210242A2001B1372 /* BeltExam */ = {
 			isa = PBXGroup;
 			children = (
+				444523F821025274001B1372 /* TheBeast.swift */,
 				444523BD210242A2001B1372 /* AppDelegate.swift */,
 				444523BF210242A2001B1372 /* ViewController.swift */,
 				444523C1210242A2001B1372 /* Main.storyboard */,
+				444523FA21027CA4001B1372 /* BeastedCell.swift */,
+				444523F421024F14001B1372 /* BeastedViewController.swift */,
+				444523F221024EE0001B1372 /* BeastCell.swift */,
+				444523F021024EA3001B1372 /* AddEditTableViewController.swift */,
+				444523EE21024E44001B1372 /* AddEditTableViewCell.swift */,
 				444523C7210242A5001B1372 /* Assets.xcassets */,
 				444523C9210242A5001B1372 /* LaunchScreen.storyboard */,
 				444523CC210242A5001B1372 /* Info.plist */,
@@ -260,8 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				444523C0210242A2001B1372 /* ViewController.swift in Sources */,
+				444523F921025274001B1372 /* TheBeast.swift in Sources */,
+				444523F521024F14001B1372 /* BeastedViewController.swift in Sources */,
+				444523F321024EE0001B1372 /* BeastCell.swift in Sources */,
 				444523BE210242A2001B1372 /* AppDelegate.swift in Sources */,
+				444523FB21027CA4001B1372 /* BeastedCell.swift in Sources */,
 				444523C6210242A2001B1372 /* BeltExam.xcdatamodeld in Sources */,
+				444523EF21024E44001B1372 /* AddEditTableViewCell.swift in Sources */,
+				444523F121024EA3001B1372 /* AddEditTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
